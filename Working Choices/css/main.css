@@ -1,0 +1,104 @@
+html {
+    position: relative;
+    min-height: 100%;
+    line-height: 21px;
+}
+@font-face {
+  font-family: "bungee";
+  src: url(Bungee-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    /* Margin bottom by footer height */
+    margin-bottom: 100px;
+    font-family: 'Bungee', cursive;
+    background: #424949;
+    text-align: center;
+    height: 560px;
+}
+
+header {
+    text-align: center;
+    border: 1px solid #aaa;
+    background-color: #eee;
+}
+
+#app {
+    width: 50%;
+    margin: auto;
+} 
+ 
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #aaa;
+    background-color: #eee;
+    /* Set the fixed height of the footer here */
+    height: 100px;
+}
+
+#timer-control {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 1em;
+    margin: 1em;
+}
+
+#timer-display {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 1em;
+    margin: 1em;
+}
+
+
+/* **************************   modif baptiste ***********************************/
+
+
+
+#pause{
+     
+}
+
+
+
+#contener{
+    margin-top: 20px;
+    width: 800px;
+    height: 600px;
+    border: solid #566573 5px;
+  
+}
+#barre_haut{
+    background: #707B7C  ;
+    border: solid #566573 5px;
+  
+    margin-left: 0.5%;
+    width: 98%;
+}
+#contenerDeBoite{
+    display: flex;
+    justify-content: space-around;
+}
+#barre_gauche{
+    background: #707B7C  ;
+    border: solid #566573 5px;
+  
+    height: 500px;
+    width: 163px;
+    margin-top: 30px;
+   padding: 0.8em;
+}
+#barre_droite{
+    background: #707B7C  ;
+    border: solid #566573 5px;
+  
+    height: 500px;
+    width: 163px;
+    margin-top: 30px;
+
+    padding: 0.8em;
+}
